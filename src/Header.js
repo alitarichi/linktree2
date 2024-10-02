@@ -1,5 +1,6 @@
 "use client";
 
+import { ModeToggle } from "./app/components/ModeToggle";
 import LangApp from "./LangApp";
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
       <h1>Header</h1>
       <h1>Logo</h1>
       <div className="flex gap-8">
-        <button>Theme Selector</button>
+        <ModeToggle />
         <LangApp />
       </div>
     </div>
