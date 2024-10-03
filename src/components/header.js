@@ -1,7 +1,6 @@
 "use client";
 
-import { ModeToggle } from "./app/components/ModeToggle";
-import LangApp from "./LangApp";
+import LangApp from "./langApp";
 
 function Header() {
   return (
@@ -9,7 +8,6 @@ function Header() {
       <h1>Header</h1>
       <h1>Logo</h1>
       <div className="flex gap-8">
-        <ModeToggle />
         <LangApp />
       </div>
     </div>
