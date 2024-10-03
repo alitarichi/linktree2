@@ -1,14 +1,14 @@
 "use client";
 
 import LangApp from "./langApp";
+import { ModeToggle } from "./modeToggle";
 
 function Header() {
   return (
     <div className="flex p-10  justify-between">
-      <h1>Header</h1>
-      <h1>Logo</h1>
       <div className="flex gap-8">
         <LangApp />
+        <ModeToggle />
       </div>
     </div>
   );
