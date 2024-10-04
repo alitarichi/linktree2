@@ -30,6 +30,7 @@ export default function Page() {
       </div>
       <div>
         <Button>Website</Button>
+        <Button>Address</Button>
       </div>
     </>
   );
