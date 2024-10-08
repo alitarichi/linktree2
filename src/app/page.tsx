@@ -21,12 +21,9 @@ export default function Page() {
     <>
       <div className="items-center flex justify-end p-16 gap-16 ">
         <ModeToggle />
-        <button
-          onClick={toggleLanguage}
-          className="px-4 py-2 bg-blue-500 text-white rounded"
-        >
+        <Button onClick={toggleLanguage} className="px-4 py-2  rounded">
           {isEnglish ? "Farsi 🇮🇷" : "English 🇺🇸"}
-        </button>
+        </Button>
       </div>
       <div className="flex-row items-center text-center">
         <div className="flex items-center justify-center pb-8">
@@ -53,21 +50,21 @@ export default function Page() {
         <div className="flex flex-col">
           <Button
             className="flex gap-2 items-center justify-center 
-    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl"
+    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl shadow-[0px_0px_30px_-3px_#ff00d4]"
           >
             {isEnglish ? "Website" : "وب‌ سایت"}
             <Image src="/internet.png" alt="telegram" width={24} height={24} />
           </Button>
           <Button
             className="flex gap-2 items-center justify-center 
-    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl"
+    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl shadow-[0px_0px_30px_-3px_#ae00ff]"
           >
             {isEnglish ? "Address" : "آدرس"}
             <Image src="/location.png" alt="telegram" width={24} height={24} />
           </Button>
           <Button
             className="flex gap-2 items-center justify-center 
-    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl"
+    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl shadow-[0px_0px_30px_-3px_#1e00ff]"
           >
             {isEnglish ? "Contact Us" : "با ما تماس بگیرید"}
             <Image
@@ -79,14 +76,14 @@ export default function Page() {
           </Button>
           <Button
             className="flex gap-2 items-center justify-center 
-    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl"
+    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl shadow-[0px_0px_30px_-3px_#00e1ff]"
           >
             {isEnglish ? "Chat via Telegram" : "چت از طریق تلگرام"}
             <Image src="/telegram.png" alt="telegram" width={24} height={24} />
           </Button>
           <Button
             className="flex gap-2 items-center justify-center 
-    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl"
+    mx-auto w-full mt-8 px-8  md:max-w-3xl sm:max-w-xl shadow-[0px_0px_30px_-3px_#00ff44]"
           >
             {isEnglish ? "Chat via Signal" : "چت از طریق سیگنال"}
             <Image src="/signal.png" alt="telegram" width={24} height={24} />
